@@ -43,13 +43,12 @@ Locked nav items in the app show exactly this — click one to see what it unloc
 
 | Tier | Includes | Price |
 |---|---|---|
-| **Community** | Payroll, Salary Structure, Payslip, Payroll Runs | ₹0 (Forever) |
-| **Growth** | Attendance, Leave, Employee Loans | ₹39–49/employee/month |
-| **Compliance** | PF, ESI, PT, TDS, Form 16 / 24Q, Bank Export | +₹20–25/employee/month |
-| **AI Add-on** | AI Copilot, Resume Parser, JD Generator, Payroll Anomaly Detection | +₹15–20/employee/month |
-| **Enterprise** | Analytics & Dashboards, Integrations, SLA, Priority Support, Custom Branding, SSO | Custom pricing |
+| **Community** | Payroll, Salary Structure, Payslip, Payroll Runs | Free |
+| **Growth** | + Attendance, Leave, Employee Loans | ₹49/employee/month |
+| **Business** | Growth + Compliance — PF, ESI, PT, TDS, Form 16 / 24Q, Bank Export | ₹69/employee/month |
+| **Enterprise** | Everything + AI — AI Copilot, Resume Parser, JD Generator, Anomaly Detection, Analytics & Dashboards, Integrations, SLA, Priority Support, Custom Branding, SSO | ₹89–99/employee/month |
 
-Mix and match tiers — Pro isn't all-or-nothing. Reach out for a quote for your headcount.
+Each tier includes everything in the tier below it. Reach out for a quote for your headcount.
 
 ## Requirements
 
