@@ -32,6 +32,7 @@ def create_structure(data):
 	doc = frappe.get_doc(
 		{
 			"doctype": "Salary Structure",
+			"name": data.get("name") or data.get("structure_name"),
 			"company": data.get("company"),
 			"payroll_frequency": data.get("payroll_frequency", "Monthly"),
 			"currency": data.get("currency"),
