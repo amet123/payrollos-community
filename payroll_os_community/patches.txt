@@ -1,0 +1,3 @@
+# PayrollOS Community patches.
+# Each line: dotted path to a patch module (payroll_os_community.patches.vX_Y.<name>).
+# Add entries here as data migrations are introduced.

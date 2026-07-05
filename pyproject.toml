@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core>=3.2"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "payroll_os_community"
+version = "0.1.0"
+description = "PayrollOS Community — open-source payroll UI on top of Frappe HR (hrms)"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.flit.module]
+name = "payroll_os_community"
