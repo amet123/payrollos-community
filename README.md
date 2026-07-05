@@ -86,7 +86,7 @@ PayrollOS Pro is a separate, privately-licensed add-on app that installs alongsi
 
 **Note:** Pro runs its own independent data model — installing it does not merge with the Employees/Payroll Runs you've already created in Community. This is a known v1 limitation.
 
-Contact your PayrollOS administrator, or reach out at hello@payrollos.app, to get access.
+Contact your PayrollOS administrator, or reach out at ametvaid@gmail.com, to get access.
 
 ## License
 
