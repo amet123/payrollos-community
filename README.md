@@ -6,16 +6,42 @@ PayrollOS Community does not define its own payroll engine or its own Employee/S
 
 ## What's in Community vs Pro
 
-| | Community (this repo) | [PayrollOS Pro](#upgrading-to-pro) |
-|---|---|---|
-| Employees, Salary Structures, Payroll Runs, Payslips | ✅ | ✅ |
-| Statutory reports (PF/ESI/PT/TDS, Form 16/24Q) | — | ✅ |
-| Hiring & onboarding, Loans, Reimbursements | — | ✅ |
-| Gratuity, Bonus, Group Insurance | — | ✅ |
-| AI HR Copilot | — | ✅ |
-| Bank export/reconciliation, parallel-run validation | — | ✅ |
+**Community** covers the payroll core for free, forever, self-hosted: run payroll end to end
+on top of standard Frappe HR, no lock-in, no per-employee fee.
 
-Locked nav items in the app show what Pro adds — click one to see details.
+**Pro** is a paid add-on for teams that need statutory compliance, the full HR lifecycle,
+and automation on top of that core.
+
+| Module | Community | Pro |
+|---|:---:|:---:|
+| Employees, Salary Structures, Payroll Runs, Payslips | ✅ | ✅ |
+| Attendance, Leave, Employee Loans, Holiday Calendar | — | ✅ |
+| Hiring & Onboarding — requisitions, pipeline, interviews, offer letters, exits, F&F | — | ✅ |
+| Statutory Compliance — PF ECR, ESI challan, PT, Form 16 / 24Q, TDS reconciliation, YTD import | — | ✅ |
+| Gratuity, Statutory Bonus, Group Insurance (GMC/GPA/GTL/GHI) | — | ✅ |
+| Expense Reimbursements — claims, approvals, payroll payout | — | ✅ |
+| Payroll Ops — parallel-run validation, bank reconciliation, arrears, payroll calendar | — | ✅ |
+| Bank Export — NEFT/RTGS/IMPS payment files (ICICI/Axis/HDFC and more) | — | ✅ |
+| Analytics & Dashboards — cost analysis, headcount/attrition trends, SLA & audit reports | — | ✅ |
+| AI HR Copilot, JD Generator, Resume Parser, AI Screening, Anomaly Detection | — | ✅ |
+| Integrations — WhatsApp/Slack/Teams notifications, biometric devices, job boards | — | ✅ |
+
+Locked nav items in the app show exactly this — click one to see what it unlocks.
+
+### Indicative Pro pricing (per employee/month, unless noted)
+
+| Module | Price |
+|---|---|
+| HR Basics (attendance, leave, loans) | ₹25 |
+| Hiring & Onboarding | ₹19 |
+| Compliance Suite (PF/ESI/PT/TDS/Form 16) | ₹15 |
+| Payroll Ops (parallel run, bank recon, arrears) | ₹12 |
+| Reimbursements | ₹9 |
+| AI Suite | ₹29 |
+| Analytics & Dashboards | ₹499 flat/month |
+| Integrations | ₹999 flat/month |
+
+Mix and match modules — Pro isn't all-or-nothing. Reach out for a quote for your headcount.
 
 ## Requirements
 
