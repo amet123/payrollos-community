@@ -1,6 +1,8 @@
 # PayrollOS Community
 
-An open-source, self-hostable payroll UI built on top of [Frappe HR](https://github.com/frappe/hrms) — run payroll, manage salary structures, and issue payslips from one clean admin console.
+**PayrollOS — The AI Payroll Operating System for Frappe & ERPNext.**
+
+An open-source, self-hostable payroll console built on top of [Frappe HR](https://github.com/frappe/hrms) — run payroll, manage salary structures, and issue payslips from one clean admin console.
 
 PayrollOS Community does not define its own payroll engine or its own Employee/Salary Slip records. ##It's a Modern Payroll Operating System built on top of the battle-tested Frappe HR payroll engine., battle-tested `hrms` Payroll module (Salary Structure, Salary Structure Assignment, Salary Component, Salary Slip, Payroll Entry). Your data lives in standard Frappe HR doctypes — no lock-in.
 
@@ -37,20 +39,17 @@ and automation on top of that core.
 
 Locked nav items in the app show exactly this — click one to see what it unlocks.
 
-### Indicative Pro pricing (per employee/month, unless noted)
+### Pricing tiers
 
-| Module | Price |
-|---|---|
-| HR Basics (attendance, leave, loans) | ₹25 |
-| Hiring & Onboarding | ₹19 |
-| Compliance Suite (PF/ESI/PT/TDS/Form 16) | ₹15 |
-| Payroll Ops (parallel run, bank recon, arrears) | ₹12 |
-| Reimbursements | ₹9 |
-| AI Suite | ₹29 |
-| Analytics & Dashboards | ₹499 flat/month |
-| Integrations | ₹999 flat/month |
+| Tier | Includes | Price |
+|---|---|---|
+| **Community** | Payroll, Salary Structure, Payslip, Payroll Runs | ₹0 (Forever) |
+| **Growth** | Attendance, Leave, Employee Loans | ₹39–49/employee/month |
+| **Compliance** | PF, ESI, PT, TDS, Form 16 / 24Q, Bank Export | +₹20–25/employee/month |
+| **AI Add-on** | AI Copilot, Resume Parser, JD Generator, Payroll Anomaly Detection | +₹15–20/employee/month |
+| **Enterprise** | Analytics & Dashboards, Integrations, SLA, Priority Support, Custom Branding, SSO | Custom pricing |
 
-Mix and match modules — Pro isn't all-or-nothing. Reach out for a quote for your headcount.
+Mix and match tiers — Pro isn't all-or-nothing. Reach out for a quote for your headcount.
 
 ## Requirements
 
