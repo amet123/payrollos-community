@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── CSS custom properties for dark mode ─────────────────────────────── */
+:root {
+  --bg: #f9fafb;
+  --bg-card: #ffffff;
+  --bg-sidebar: #4f46e5;
+  --text-primary: #111827;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --ring: #e5e7eb;
+  --ring-card: #f3f4f6;
+  --border: #e5e7eb;
+}
+
+.dark {
+  --bg: #0f172a;
+  --bg-card: #1e293b;
+  --bg-sidebar: #1e1b4b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --ring: #334155;
+  --ring-card: #334155;
+  --border: #334155;
+}
+
+@layer base {
+  html {
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply transition-colors duration-200;
+    background-color: var(--bg);
+    color: var(--text-primary);
+  }
+
+  .dark .po-card {
+    background-color: var(--bg-card) !important;
+    border-color: var(--ring) !important;
+    --tw-ring-color: var(--ring);
+  }
+  .dark .po-input {
+    background-color: #0f172a !important;
+    color: var(--text-primary) !important;
+    --tw-ring-color: var(--ring);
+  }
+  .dark .bg-white {
+    background-color: var(--bg-card) !important;
+  }
+  .dark .bg-gray-50 {
+    background-color: #1e293b !important;
+  }
+  .dark .bg-gray-100 {
+    background-color: #0f172a !important;
+  }
+  .dark .text-gray-900 {
+    color: var(--text-primary) !important;
+  }
+  .dark .text-gray-700 {
+    color: #cbd5e1 !important;
+  }
+  .dark .text-gray-600 {
+    color: var(--text-secondary) !important;
+  }
+  .dark .text-gray-500 {
+    color: var(--text-muted) !important;
+  }
+  .dark .text-gray-400 {
+    color: #475569 !important;
+  }
+  .dark .border-gray-100, .dark .ring-gray-100 {
+    border-color: var(--border) !important;
+    --tw-ring-color: var(--ring);
+  }
+  .dark .border-gray-200, .dark .ring-gray-200 {
+    border-color: var(--ring) !important;
+    --tw-ring-color: var(--ring);
+  }
+  .dark table thead {
+    background-color: #0f172a !important;
+  }
+  .dark table thead th {
+    color: #94a3b8 !important;
+  }
+}
+
+@layer components {
+  .po-card {
+    @apply rounded-2xl bg-white shadow-card ring-1 ring-gray-100;
+  }
+  .po-stat {
+    @apply po-card p-5 transition duration-200 hover:shadow-premium hover:-translate-y-0.5;
+  }
+
+  .po-nav {
+    @apply flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium text-indigo-100/70
+      transition hover:bg-white/10 hover:text-white;
+  }
+  .po-nav-active {
+    @apply bg-white/10 text-white shadow-glow ring-1 ring-white/10;
+  }
+
+  .po-chip {
+    @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold;
+  }
+  .po-label {
+    @apply mb-1 block text-xs font-semibold text-gray-500;
+  }
+  .po-input {
+    @apply w-full rounded-xl border-0 bg-gray-50 px-3 py-2 text-sm text-gray-800
+      ring-1 ring-gray-200 outline-none placeholder:text-gray-400
+      focus:bg-white focus:ring-brand-300 transition;
+  }
+
+  .po-btn-primary {
+    @apply inline-flex items-center gap-1.5 rounded-xl bg-brand-gradient px-4 py-2
+      text-sm font-semibold text-white shadow-glow transition hover:opacity-90
+      disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+
+  .po-bottom-nav {
+    @apply fixed bottom-0 left-0 right-0 z-40 flex border-t border-gray-100
+      bg-white/95 backdrop-blur-sm pb-safe-bottom pt-1 sm:hidden;
+  }
+  .po-bottom-nav-item {
+    @apply flex flex-1 flex-col items-center gap-0.5 py-1 text-[10px] font-medium
+      text-gray-500 transition;
+  }
+  .po-bottom-nav-item.active {
+    @apply text-indigo-600;
+  }
+
+  .po-skeleton {
+    @apply animate-pulse rounded-xl bg-gray-100;
+  }
+
+  @media (max-width: 640px) {
+    .po-nav {
+      @apply px-2 py-2;
+    }
+    .po-card {
+      @apply rounded-xl;
+    }
+  }
+}
+
+/* ── Scrollbar styling ───────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 9999px; }
+::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+.dark ::-webkit-scrollbar-thumb { background: #475569; }
+
+/* ── Safe area (iOS notch) ───────────────────────────────────────────── */
+.pb-safe-bottom { padding-bottom: env(safe-area-inset-bottom, 0); }
+
+.prose-sm pre { @apply overflow-auto; }
