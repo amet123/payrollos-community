@@ -4,6 +4,15 @@ An open-source, self-hostable payroll UI built on top of [Frappe HR](https://git
 
 PayrollOS Community does not define its own payroll engine or its own Employee/Salary Slip records. It's a thin, premium UI + a small API layer over the standard, battle-tested `hrms` Payroll module (Salary Structure, Salary Structure Assignment, Salary Component, Salary Slip, Payroll Entry). Your data lives in standard Frappe HR doctypes — no lock-in.
 
+## Screenshots
+
+<sub>From the PayrollOS Pro workspace — a preview of the premium UI this project is built on. Compliance Centre and Settings shown below are Pro-only; Community covers the Dashboard and Payroll Runs experience.</sub>
+
+| | |
+|---|---|
+| ![Dashboard](docs/screenshots/dashboard.jpeg) | ![Payroll Runs](docs/screenshots/payroll-runs.jpeg) |
+| ![Compliance Centre (Pro)](docs/screenshots/compliance.jpeg) | ![Company Settings](docs/screenshots/settings.jpeg) |
+
 ## What's in Community vs Pro
 
 **Community** covers the payroll core for free, forever, self-hosted: run payroll end to end
