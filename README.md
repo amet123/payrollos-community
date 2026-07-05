@@ -2,7 +2,7 @@
 
 An open-source, self-hostable payroll UI built on top of [Frappe HR](https://github.com/frappe/hrms) — run payroll, manage salary structures, and issue payslips from one clean admin console.
 
-PayrollOS Community does not define its own payroll engine or its own Employee/Salary Slip records. It's a thin, premium UI + a small API layer over the standard, battle-tested `hrms` Payroll module (Salary Structure, Salary Structure Assignment, Salary Component, Salary Slip, Payroll Entry). Your data lives in standard Frappe HR doctypes — no lock-in.
+PayrollOS Community does not define its own payroll engine or its own Employee/Salary Slip records. ##It's a Modern Payroll Operating System built on top of the battle-tested Frappe HR payroll engine., battle-tested `hrms` Payroll module (Salary Structure, Salary Structure Assignment, Salary Component, Salary Slip, Payroll Entry). Your data lives in standard Frappe HR doctypes — no lock-in.
 
 ## Screenshots
 
